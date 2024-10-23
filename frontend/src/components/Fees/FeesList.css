@@ -1,0 +1,39 @@
+
+.container {
+    max-width: 100%; 
+    margin: auto;
+}
+
+.fees-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.fees-table th,
+.fees-table td {
+    border: 1px solid #ddd; 
+    padding: 0.75rem; 
+    text-align: left; 
+}
+
+.fees-table th {
+    background-color: #5f6164;
+    color: #fff; 
+}
+
+.action-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease, opacity 0.2s ease; 
+}
+
+.action-button:hover {
+    transform: scale(1.2); 
+    opacity: 0.8; 
+}
+

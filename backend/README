@@ -1,0 +1,47 @@
+SCHOOL MANAGEMENT SYSTEM BACKEND
+
+To start backend :
+    cd backend
+    npm start
+
+USED FILES AND FOLDERS
+
+server.js
+config
+model
+controllers
+router
+middleware
+service
+.env
+.gitignore
+nodemodules
+package.json
+README
+
+config            - db.js - connecting to mongoDB database
+
+model            - User.js
+                 - student.js
+                 - FeesRecord.js
+                 - LibraryRecord.js 
+
+controllers      - authController.js
+                 - studentController.js
+                 - feesController.js
+                 - libraryController.js 
+
+router           - auth.js
+                 - student.js
+                 - fees.js
+                 - library.js
+
+middleware       - authMiddleware.js  -middleware function verifies the provided JWT token from the authorization header, decodes the user data, and allows access to protected routes if the token is valid. 
+
+service          - sendToken.js -This function generates an access token for a user, logs it for debugging, and sends the token along with user details as a JSON response.
+
+.env           PORT = 8000
+               MONGODB=mongodb://localhost:27017/schoolmanagement
+               MONGODB_URI=mongodb+srv://anushma007:school@cluster0.apbdi.mongodb.net/school
+               TOKEN_SECRET = schooltokensecret123
+

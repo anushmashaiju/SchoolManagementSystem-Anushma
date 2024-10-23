@@ -1,0 +1,32 @@
+.container {
+    margin-top: 20px;
+  }
+  .container h2{
+    text-align: center;
+  }
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .student-table th {
+    background-color:#5f6164;
+    font-weight: bold;
+  }
+ .student-name{
+color: aquamarine;
+cursor: pointer;
+ }
+ .action-button {
+  color: #4caf50;
+ }
+ .save-button{
+  color: #f44336;
+ }

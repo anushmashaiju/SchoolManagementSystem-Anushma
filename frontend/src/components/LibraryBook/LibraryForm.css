@@ -1,0 +1,72 @@
+.library-form-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #5f6164;
+    max-width: 600px;
+    margin: 50px auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.library-form-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.library-form-card form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; 
+}
+
+
+.library-form-card form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.library-form-card label {
+    margin-bottom: 5px;
+    color: #ffffff; 
+}
+
+.library-form-card input,
+.library-form-card select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.library-form-card input:focus,
+.library-form-card select:focus {
+    border-color: #007bff; 
+    outline: none; 
+}
+
+
+.library-form-card button {
+    grid-column: 1 / -1; 
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    font-size: 16px; 
+}
+
+.library-form-card button:hover {
+    background-color: #0056b3; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .library-form-card form  {
+        grid-template-columns: 1fr;
+    }
+}
+

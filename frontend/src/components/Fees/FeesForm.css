@@ -1,0 +1,66 @@
+.fee-form-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #5f6164;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; 
+}
+
+.fee-form-card h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.fee-form-card form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; 
+}
+
+.fee-form-card form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.fee-form-card label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; 
+}
+
+.fee-form-card input,
+.fee-form-card select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff; 
+    color: #333; 
+}
+
+
+.fee-form-card button {
+    grid-column: 1 / -1; 
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; 
+}
+
+.fee-form-card button:hover {
+    background-color: #0056b3; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .fee-form-card form {
+        grid-template-columns: 1fr; 
+    }
+}

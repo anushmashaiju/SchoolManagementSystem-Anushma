@@ -1,0 +1,25 @@
+
+.container {
+    max-width: 100%;
+    margin: auto; 
+}
+.container h2{
+    text-align: center;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.book-table th,
+.book-table td {
+    border: 1px solid #ddd; 
+    padding: 0.75rem; 
+    text-align: left; 
+}
+
+.book-table th {
+    background-color: #5f6164; 
+}
